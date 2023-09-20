@@ -1,0 +1,33 @@
+body {
+    background-color: #0A141D;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 360px;
+}
+
+.square_container {
+    display: flex;
+    width: 580px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+   }
+
+.square {
+    width: 150px;
+    height: 150px;
+    margin: 1.25rem 0;
+    border-radius: 12px;   
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #72C6C7;
+    color: #72C6C7;
+    padding: 12px 2rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
